@@ -15,12 +15,15 @@ You will also need [Angular-CLI](https://cli.angular.io/) installed running `sud
 
 ## Installing dependencies
 
+  
 
 Use `npm install` or `npm i` to install all dependencies on [package.json](package.json)
 
+  
 
 ## Development server
 
+  
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
@@ -40,5 +43,5 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## APIs Necessárias
 
-Para exibição dos clubes: https://api.cartolafc.globo.com/clubes
-Para exibição da próxima rodada: https://api.cartolafc.globo.com/partidas
+ - Para exibição dos clubes: https://api.cartolafc.globo.com/clubes
+ -  Para exibição da próxima rodada: https://api.cartolafc.globo.com/partidas
