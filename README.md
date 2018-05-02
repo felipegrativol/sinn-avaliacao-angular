@@ -1,6 +1,6 @@
 
 # sinn-avaliacao-angular
-Teste para vaga de Front-End na Sinn Tecnlogia
+Avaliação para vaga de Front-End na Sinn Tecnlogia
   
 
 ## Pre-requisites
