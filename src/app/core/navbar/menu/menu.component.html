@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" routerLink="">
+    <!-- <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" alt=""> -->
+    Exame Prévio de Edital
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto" *ngFor="let route of routes">
+      <li class="nav-item" [ngClass]="{'dropdown' : route.children}">
+        <a class="nav-link" [ngClass]="{'dropdown-toggle' : route.children} " routerLink="{{route.path}}" routerLinkActive="active"
+          role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" *ngIf="route.data.active" >
+          <i class="material-icons">{{route.data.icon}}</i>
+          {{route.data.title}}
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" *ngFor="let children of route.children">
+          <a class="dropdown-item" routerLink="{{children.path}}">
+              <i class="material-icons">{{children.data.icon}}</i>
+              {{children.data.title}}</a>
+        </div>
+
+      </li>
+    </ul>
+  </div>
+</nav>
