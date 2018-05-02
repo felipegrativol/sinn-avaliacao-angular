@@ -1,4 +1,8 @@
-h1{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+.example-card {
+  max-width: 600px;
+}
+
+.example-header-image {
+  background-image: url('http://sinn.com.br/img/logo1-default.png');
+  background-size: cover;
 }

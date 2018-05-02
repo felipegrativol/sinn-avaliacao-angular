@@ -10,15 +10,14 @@ import { CoreModule } from './core/core.module';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
-import { ProtocoloModule } from './protocolo/protocolo.module';
-
-import { ProtocoloConsultaComponent } from './protocolo/protocolo-consulta/protocolo-consulta.component';
 import { UserService } from './shared/user/user.service';
+import { ClubesComponent } from './clubes/clubes.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    ClubesComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,7 +25,6 @@ import { UserService } from './shared/user/user.service';
     SharedModule,
     CoreModule,
     AppRoutingModule,
-    ProtocoloModule,
     HttpClientModule,
   ],
   providers: [UserService],

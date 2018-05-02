@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
 import { MainComponent } from './core/main/main.component';
-import { ProtocoloConsultaComponent } from './protocolo/protocolo-consulta/protocolo-consulta.component';
+import { ClubesComponent } from './clubes/clubes.component';
 
 
 
@@ -17,10 +17,10 @@ export const routes: Routes = [
     }
   },
   {
-    path: 'protocolo',
-    component: ProtocoloConsultaComponent,
+    path: 'clubes',
+    component: ClubesComponent,
     data: {
-      title: 'Protocolos',
+      title: 'Clubes',
       icon: 'dashboard',
       active: true
     },
