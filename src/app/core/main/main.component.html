@@ -1,9 +1,9 @@
-<div >
-  <mat-card class="example-card" >
+<div fxLayout="row">
+  <mat-card class="example-card" fxFlex="40" fxFlexOffset="10">
     <mat-card-header>
       <div mat-card-avatar class="example-header-image"></div>
-      <mat-card-title>Atividades</mat-card-title>
-      <mat-card-subtitle>Teste Sinn</mat-card-subtitle>
+      <mat-card-title>Atividades Principais</mat-card-title>
+      <mat-card-subtitle>Avaliação Sinn</mat-card-subtitle>
     </mat-card-header>
     <mat-card-content>
         <mat-selection-list #atividades>
@@ -13,4 +13,21 @@
           </mat-selection-list>
     </mat-card-content>
   </mat-card>
+
+  <mat-card class="example-card" fxFlex="40" fxFlexOffset="10">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Extra</mat-card-title>
+      <mat-card-subtitle>Avaliação Sinn</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <mat-selection-list #atividadeExtra>
+            <mat-list-option *ngFor="let extra of extras">
+              {{extra}}
+            </mat-list-option>
+          </mat-selection-list>
+    </mat-card-content>
+  </mat-card>
+
+
 </div>

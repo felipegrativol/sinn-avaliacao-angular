@@ -21,11 +21,12 @@ export class MainComponent implements OnInit {
     'Não exibir o time caso ele não possua posição',
     'Filtrar tabela de Clubes pelo campo nome do time e posição',
     'Exibir um contador na tela inicial do tempo restante para o fechamento da rodada',
-    'Se a rodada estiver acabada, não deixar entrar na tela de Clubes',
-    '',
-    'EXTRA',
-    '',
-    'Criar componente de Próxima Rodada exibindo o escudo + abreviacao do Time Mandante X escudo + abreviacao do Time Visitante',
+    'Se a rodada estiver acabada, não deixar entrar na tela de Clubes'
+  ];
+
+  extras =
+  [
+    'Criar componente de Próxima Rodada exibindo o escudo + abreviacao do Time Mandante X escudo + abreviacao do Time Visitante'
   ];
 
   ngOnInit() {
