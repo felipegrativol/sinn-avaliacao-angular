@@ -11,13 +11,13 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { UserService } from './shared/user/user.service';
-import { ClubesComponent } from './clubes/clubes.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ClubesComponent,
+    UsuariosComponent,
   ],
   imports: [
     BrowserModule,
