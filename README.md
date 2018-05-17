@@ -41,15 +41,15 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
  - Para o endereço, você pode utilizar uma api de validação do CEP. Se o cep for válido, preencher os campos de Logradouro, Bairro, Cidade e Estado.
  - O ideal é que a API seja chamada, somente quando o usuário tiver digitado 8 dígitos númericos.
  - Cada usuário poderá ter quantos endereços ele quiser.
- - Lembrando: Nenhuma atividade é eliminatória, mas é pode ser determinatória para o seu nível de experiência.
+ - Lembrando: Nenhuma atividade é eliminatória, mas pode ser determinatória para o seu nível de experiência.
  - Boa sorte :)
 
 ## APIs Necessárias
 
- - Para buscar os tipos de pessoa existente: http://ec2-13-59-74-180.us-east-2.compute.amazonaws.com:8000/api/tipoUsuario
- - Para exibição dos usuários: http://ec2-13-59-74-180.us-east-2.compute.amazonaws.com:8000/api/usuarios
- - Para salvar usuários: http://ec2-13-59-74-180.us-east-2.compute.amazonaws.com:8000/api/usuarios
- - Para editar um usuário: http://ec2-13-59-74-180.us-east-2.compute.amazonaws.com:8000/api/usuarios/:id
+ - Para buscar os tipos de pessoa existente: http://ec2-13-59-74-180.us-east-2.compute.amazonaws.com:8000/api/tipoUsuario - GET
+ - Para exibição dos usuários: http://ec2-13-59-74-180.us-east-2.compute.amazonaws.com:8000/api/usuarios - GET
+ - Para salvar usuários: http://ec2-13-59-74-180.us-east-2.compute.amazonaws.com:8000/api/usuarios - POST
+ - Para editar um usuário: http://ec2-13-59-74-180.us-east-2.compute.amazonaws.com:8000/api/usuarios/:id - PUT
 
  - Para buscar um CEP utilizar (08030310 é um exemplo válido): http://ec2-13-59-74-180.us-east-2.compute.amazonaws.com:8000/api/cep?cep=08030310
 
