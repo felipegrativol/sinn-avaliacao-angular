@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
 import { MainComponent } from './core/main/main.component';
-import { ClubesComponent } from './clubes/clubes.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
 
 
 
@@ -17,10 +17,10 @@ export const routes: Routes = [
     }
   },
   {
-    path: 'clubes',
-    component: ClubesComponent,
+    path: 'usuarios',
+    component: UsuariosComponent,
     data: {
-      title: 'Clubes',
+      title: 'Usuários',
       icon: 'dashboard',
       active: true
     },
