@@ -28,7 +28,7 @@ Use `npm install` or `npm i` to install all dependencies on [package.json](packa
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Sobre o cargo
-- A vaga é para desenvolvedores JR.
+- A vaga é para desenvolvedor front-end.
 
 ## Atividades
  - Aqui usamos o Angular Material nos projetos (http://material.angular.io) e o mesmo ja está incorporado nesse projeto, porém o teste fica ao seu critério a escolha do framework visual.
