@@ -31,7 +31,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 - A vaga é para desenvolvedores JR, Pleno e Sênior, o seu desempenho neste teste definirá em qual categoria você mais se adequa, então não se preocupe caso você não consiga fazer uma coisa ou outra.
 
 ## Atividades
- - É obrigatório o uso do Angular Material no projeto (http://material.angular.io)
+ - Aqui usamos o Angular Material nos projetos (http://material.angular.io) e o mesmo ja está incorporado nesse projeto, porém o teste fica ao seu critério a escolha do framework visual.
  - Dúvidas de como utilizar o Angular? Utilize o Tour of Heroes: (https://angular.io/tutorial)
  - Criar uma tabela de usuários no componente Usuários
  - Exibir os dados: Nome, Documento, se a pessoa é Jurídica ou Física e a data de Expiração de seu cadastro no formato dd/MM/yyyy (exemplo: 16/05/2018)
@@ -57,11 +57,11 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
  Exemplo de POST válido:
 
      {
-        "nome": "Thiago Rodrigues Alves",
-        "email": "alvesthiago92@gmail.com",
+        "nome": "Mark",
+        "email": "ceo@facebook.com",
         "isJuridica": true,
         "documento": 42801668893,
-        "username": "allves92",
+        "username": "markfb",
         "tipoUsuario": {
             "_id": "5a025d49394741002013c80c",
             "nome": "Cliente",
@@ -70,11 +70,11 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
         "dataExpiracao": "2018-02-27T03:00:00.000Z",
         "enderecos": [{
             "cep": "08030310",
-            "logradouro": "Rua Guaraitá",
+            "logradouro": "5 Street",
             "numero": 947,
-            "bairro": "Vila Curuçá",
-            "cidade": "São Paulo",
-            "estado": "SP",
+            "bairro": "Brooklin",
+            "cidade": "Test",
+            "estado": "CA",
             "_id": "5a1c03ef6b21303af0e9719f"
         }, {
             "cep": "08431810",
