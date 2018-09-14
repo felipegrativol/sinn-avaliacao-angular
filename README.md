@@ -37,9 +37,35 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
  - Ordenação padrão pelo Id
  - Ao clicar em uma task na tabela, exibir um modal com os dados daquela tarefa
  - Criar um filtro no topo da página para filtrar a exibição das tarefas, com as seguintes opções ( Listar todas, Listar Abertas, Listar Finalizadas )
+ - Inserir Tarefa
+ - Atualizar Tarefa
  - Lembrando: Nenhuma atividade é eliminatória, mas pode ser determinatória para o seu nível de experiência.
  - Boa sorte :)
 
 ## APIs Necessárias
- - Lista de todas as tarefas: https://jsonplaceholder.typicode.com/todos
- - Lista de tarefa especifica: https://jsonplaceholder.typicode.com/todos/1
+ - Lista de todas as tarefas: https://jsonplaceholder.typicode.com/todos (GET)
+ - Lista de tarefa especifica: https://jsonplaceholder.typicode.com/todos/1 (GET)
+ - Salvar uma tarefa: https://jsonplaceholder.typicode.com/todos (POST) 
+ ```json
+ {
+    "userId": 1,
+    "title": "teste",
+    "completed": false
+}
+```
+ - Atualizar uma tarefa: https://jsonplaceholder.typicode.com/todos/1 (PUT)
+ ```json
+ {
+    "userId": 1,
+    "id": 200,
+    "title": "salvando outro titulo",
+    "completed": true
+}
+ ```
+
+ OBS: Essa API de teste por se tratar de um mock para testes, ela não salva ou atualiza no banco de dados, então apenas consideramos a realização do POST e PUT e verificação do seu status e body de retorno para fornecer ao usuário um feedback.
+
+## Extras
+ - Documente seu desenvolvimento usando commits por funcionalidades ( não envie todo o seu teste em um único commit ).
+ - Código limpo e claro.
+ - Fique a vontade para adicionar outras funcionalidades caso julgue necessário para a solução final.
