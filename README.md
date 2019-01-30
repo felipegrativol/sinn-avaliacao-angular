@@ -32,7 +32,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 - Para a funcionalidade Editar, abra um modal (Angular Material) com um formulário (utilize reactive forms) e preencha os campos com os dados do usuario selecionado,
 - No salvar, no body do PUT passe o novo "name" e "job", no endpoint /users/{idUsuario}, e dê uma mensagem de feedback para o usuário após salvar,
 - No excluir, abra um modal (Angular Material) de confirmação de exclusão, se ele concordar, mande um DELETE no endpoint users/{idUsuario}, e de uma - mensagem de feedback para o usuário após excluir,
-- Queremos ver a organização do seu codigo e pastas. Lógica é o que mais valorizamos.,
+- Queremos ver a organização do seu codigo e pastas. Lógica é o que mais valorizamos,
 
 - Lembrando: Nenhuma atividade é eliminatória, mas pode ser determinatória para o seu nível de experiência.
 - Boa sorte :)
