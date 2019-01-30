@@ -29,6 +29,7 @@ export class MainComponent implements OnInit {
 
   extras = [
     'Liste no formato de miniatura com bordas arredondadas o avatar em cada linha da tabela',
+    'Criar um subcomponente responsável por cadastrar um usuário, utilize o endpoint /users [POST], passando o name e job',
     'Separe a listagem de usuários em um subcomponente, utilizando eventemitter para passar ações (excluir e editar) do subcomponente para o componente pai'
   ];
 
