@@ -6,11 +6,7 @@
       <mat-card-subtitle>Avaliação Sinn</mat-card-subtitle>
     </mat-card-header>
     <mat-card-content>
-        <mat-selection-list #atividades>
-            <mat-list-option *ngFor="let tarefa of tarefas">
-              {{tarefa}}
-            </mat-list-option>
-          </mat-selection-list>
+      <p *ngFor="let tarefa of tarefas">{{ tarefa }}</p>
     </mat-card-content>
   </mat-card>
 
@@ -18,16 +14,10 @@
     <mat-card-header>
       <div mat-card-avatar class="example-header-image"></div>
       <mat-card-title>API</mat-card-title>
-      <mat-card-subtitle>Avaliação Sinn</mat-card-subtitle>
+      <mat-card-subtitle>Avaliação Sinn (EXTRAS)</mat-card-subtitle>
     </mat-card-header>
     <mat-card-content>
-        <mat-selection-list #atividadeExtra>
-            <mat-list-option *ngFor="let extra of extras">
-              {{extra}}
-            </mat-list-option>
-          </mat-selection-list>
+      <p *ngFor="let extra of extras">{{ extra }}</p>
     </mat-card-content>
   </mat-card>
-
-
 </div>

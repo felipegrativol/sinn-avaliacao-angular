@@ -5,7 +5,6 @@ import { CommonModule } from '@angular/common';
 
 import { NavbarComponent } from './navbar/navbar.component';
 
-
 import { throwIfAlreadyLoaded } from './core-import-guard';
 import { MenuComponent } from './navbar/menu/menu.component';
 import { MainComponent } from './main/main.component';
