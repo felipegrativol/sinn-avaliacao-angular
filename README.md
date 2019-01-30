@@ -33,14 +33,14 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 - No salvar, no body do PUT passe o novo "name" e "job", no endpoint /users/{idUsuario}, e dê uma mensagem de feedback para o usuário após salvar,
 - No excluir, abra um modal (Angular Material) de confirmação de exclusão, se ele concordar, mande um DELETE no endpoint users/{idUsuario}, e de uma - mensagem de feedback para o usuário após excluir,
 - Queremos ver a organização do seu codigo e pastas. Lógica é o que mais valorizamos.,
-- Boa sorte :)
 
 - Lembrando: Nenhuma atividade é eliminatória, mas pode ser determinatória para o seu nível de experiência.
 - Boa sorte :)
 
 ## APIs Necessárias
 
-- Lista de todos os usuarios: https://reqres.in/api [GET]
+- Lista de todos os usuarios: https://reqres.in/api/users [GET]
+- Criar usuario: https://reqres.in/api/users [POST]
 - Dados de usuario especifico: https://reqres.in/api/users/{idusuario} [GET]
 - Editar usuario: https://reqres.in/api/users/{idusuario} [PUT]
 - Excluir usuario: https://reqres.in/api/users/{idusuario} [DELETE]
