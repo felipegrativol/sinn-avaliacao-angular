@@ -2,9 +2,6 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.component';
 import { MainComponent } from './core/main/main.component';
-import { UsuariosComponent } from './usuarios/usuarios.component';
-
-
 
 export const routes: Routes = [
   {
@@ -17,35 +14,23 @@ export const routes: Routes = [
     }
   },
   {
-    path: 'usuarios',
-    component: UsuariosComponent,
-    data: {
-      title: 'Usuários',
-      icon: 'dashboard',
-      active: true
-    },
-
-  },
-  {
     path: '404',
     component: PageNotFoundComponent,
     data: {
       acitve: false
     }
-
   },
   {
-    path: '**', component: PageNotFoundComponent,
+    path: '**',
+    component: PageNotFoundComponent,
     data: {
       acitve: false
     }
   }
-
 ];
-
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
