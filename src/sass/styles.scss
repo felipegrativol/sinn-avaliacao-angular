@@ -1,0 +1,12 @@
+@import "bootstrap/main";
+@import 'variables/colors.scss';
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+body {
+  margin: 0;
+}
